@@ -6,10 +6,10 @@
 # autospec commit: eaa4f711da30
 #
 Name     : wlrobs
-Version  : v1.1
-Release  : 1
-URL      : https://hg.sr.ht/~scoopta/wlrobs/archive/v1.1.tar.gz
-Source0  : https://hg.sr.ht/~scoopta/wlrobs/archive/v1.1.tar.gz
+Version  : fd2fca
+Release  : 2
+URL      : https://hg.sr.ht/~scoopta/wlrobs/archive/fd2fca.tar.gz
+Source0  : https://hg.sr.ht/~scoopta/wlrobs/archive/fd2fca.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-3.0
@@ -44,15 +44,15 @@ license components for the wlrobs package.
 
 
 %prep
-%setup -q -n wlrobs-v1.1
-cd %{_builddir}/wlrobs-v1.1
+%setup -q -n wlrobs-fd2fca
+cd %{_builddir}/wlrobs-fd2fca
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1725472491
+export SOURCE_DATE_EPOCH=1725476217
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
