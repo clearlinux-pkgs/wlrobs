@@ -7,7 +7,7 @@
 #
 Name     : wlrobs
 Version  : fd2fca
-Release  : 2
+Release  : 3
 URL      : https://hg.sr.ht/~scoopta/wlrobs/archive/fd2fca.tar.gz
 Source0  : https://hg.sr.ht/~scoopta/wlrobs/archive/fd2fca.tar.gz
 Summary  : No detailed summary available
